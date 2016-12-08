@@ -16,19 +16,43 @@
   text-decoration: none;
   padding: 20px;
 }
-#link{
-  vertical-align: top;
+#link1{
+  vertical-align:text-bottom;
+  left:18%;
+  text-align: center;
 }
-#invoice{
-
+#link2{
+  left:18%;
+  display: inline-flex;
+  text-align: center;
+}
+#link3{
+  left:18%;
+  display: inline-flex;
+  text-align: center;
+}
+#link4{
+  left:20%;
+  display: inline-flex;
+  text-align: center;
+}
+#link5{
+  left:20%;
+  display: inline-flex;
+  text-align: center;
+}
+#link6{
+  left:20%;
+  display: inline-flex;
+  text-align: center;
 }
 #simple{
   color: grey;
-  font-size: 30px;
+  font-size: 40px;
 }
 #pay{
   color: grey;
-  font-size: 30px;
+  font-size: 40px;
 }
 #grey{
   background-color: grey;
@@ -93,13 +117,13 @@
   height:100%;
 }
 #dollars{
-  font-size: 30px;
+  font-size: 50px;
   color:grey;
   top: 20px;
 }
 #per{
   font-size: 30px;
-  color:grey;
+  color:solid grey;
 }
 #calendar{
   width:200px;
@@ -148,7 +172,9 @@
   color:white;
 }
 #footer{
+  margin-top: 30px;
   background-color: solid grey;
+  left:50px;
 }
 #product{
   list-style: none;
@@ -167,4 +193,11 @@
 }
 #company{
   list-style: none;
+}
+#end{
+  right:20%;
+  left:20%;
+  margin-top: 30px;
+  display: inline-flex;
+  text-align: center;
 }
