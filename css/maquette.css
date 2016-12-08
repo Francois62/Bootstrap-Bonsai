@@ -70,11 +70,13 @@
   color: grey;
   font-size:20px;
    margin-top: 20%;
+   left:20px;
 }
 #colonne3{
   text-align: left;
   color: grey;
   font-size:20px;
+  left:40px;
    margin-top: 20%;
 }
 #colonne4{
@@ -92,6 +94,7 @@
 #colonne6{
   text-align: left;
   color: grey;
+  left:50px;
   font-size:20px;
    margin-top: 20%;
 }
@@ -105,14 +108,17 @@
   font-size:30px;
 }
 #graphic{
+  border-radius: 5%;
   width:100%;
   height:100%;
 }
 #graphic2{
+    border-radius: 5%;
   width:100%;
   height:100%;
 }
 #graphic3{
+    border-radius: 5%;
   width:100%;
   height:100%;
 }
@@ -152,6 +158,9 @@
   left:10%;
   color: white;
 }
+#free{
+  width:200px;
+}
 #bonsai{
   color: white;
   font-size: 30px;
@@ -162,42 +171,63 @@
   height:100px;
 }
 #ready{
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   color: grey;
   font-size: 20px;
   text-align: center;
 }
 #create{
-  background-color: cyan;
+  margin-top: 20px;
+  background-color: green;
   color:white;
 }
 #footer{
+  height: 300px;
   margin-top: 30px;
-  background-color: solid grey;
-  left:50px;
+  background-color: #242629;
 }
 #product{
+  color: grey;
+  left:20%;
   list-style: none;
 }
+a{
+  color: grey;
+}
 #title1{
+  margin-top: 30px;
+  color: grey;
   font-size: 20px;
 }
 #title2{
+  margin-top: 30px;
+  color: grey;
   font-size: 20px;
 }
 #title3{
+  margin-top: 30px;
+  color: grey;
   font-size: 20px;
 }
 #contact{
+  color: grey;
   list-style: none;
 }
 #company{
+  color: grey;
+  left:10%;
   list-style: none;
 }
 #end{
+  color: grey;
   right:20%;
   left:20%;
-  margin-top: 30px;
+  margin-top: 20px;
   display: inline-flex;
   text-align: center;
+}
+#badge{
+  width:150px;
+  height:50px;
 }
