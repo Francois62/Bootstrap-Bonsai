@@ -1,5 +1,12 @@
 .navbar{
+  background-color: transparent;
+  border: none;
+  padding-bottom: 30px;
+}
+#container{
   background-image: url("../images/payments-banner-graphic.png");
+  width:auto;
+  color: white;
   background-size: cover;
 }
 #start{
@@ -137,6 +144,8 @@
   height:100px;
 }
 #ready{
+  padding-top: 20px;
+  padding-bottom: 20px;
   border-top: solid grey 1px;
   color: grey;
   font-size: 20px;
@@ -155,6 +164,8 @@
   list-style: none;
 }
 #invoice{
+  padding-top: 20px;
+  padding-bottom: 20px;
   border: solid grey 1px;
   padding: 20px;
 }
@@ -184,6 +195,7 @@ a{
   color: white;
 }
 #company{
+  padding-left: 30px;
   color: white;
   list-style: none;
 }
