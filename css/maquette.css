@@ -1,58 +1,29 @@
 .navbar{
   background-image: url("../images/payments-banner-graphic.png");
   background-size: cover;
-  height:50%;
 }
 #start{
-  padding-right: 10px;
   display: inline-flex;
   text-decoration: none;
 }
 #sign{
     display: inline-flex;
-  width:300px;
-   left:20%;
   color: white;
   text-decoration: none;
-  padding: 20px;
 }
 #link1{
-  vertical-align:text-bottom;
-  left:18%;
-  text-align: center;
+  border-right: solid grey 1px;
 }
 #link2{
-  left:18%;
-  display: inline-flex;
-  text-align: center;
-}
-#link3{
-  left:18%;
-  display: inline-flex;
-  text-align: center;
-}
-#link4{
-  left:20%;
-  display: inline-flex;
-  text-align: center;
-}
-#link5{
-  left:20%;
-  display: inline-flex;
-  text-align: center;
-}
-#link6{
-  left:20%;
-  display: inline-flex;
-  text-align: center;
+  border-right: solid grey 1px;
 }
 #simple{
   color: grey;
-  font-size: 40px;
+  font-size: 20px;
 }
 #pay{
   color: grey;
-  font-size: 40px;
+  font-size: 20px;
 }
 #grey{
   background-color: grey;
@@ -62,74 +33,69 @@
   padding-top: 40px;
   color:white;
 }
-#colonne1{
-  background-color: cyan;
-}
-#colonne2{
-  text-align: left;
-  color: grey;
-  font-size:20px;
-   margin-top: 20%;
-   left:20px;
-}
-#colonne3{
-  text-align: left;
-  color: grey;
-  font-size:20px;
-  left:40px;
-   margin-top: 20%;
-}
-#colonne4{
-  background-color: purple;
+.colonne1{
+  height:500px;
+  overflow: hidden;
   text-align: left;
   color: grey;
   font-size:20px;
 }
-#colonne5{
-  background-color: cyan;
-  text-align: left;
-  color: grey;
-  font-size:20px;
+#col{
+    background-color: cyan;
 }
-#colonne6{
-  text-align: left;
-  color: grey;
-  left:50px;
-  font-size:20px;
-   margin-top: 20%;
+#col1{
+    background-color: purple;
+}
+#col2{
+    background-color: skyblue;
 }
 #titrecol{
+  margin-top: 30px;
   font-size:30px;
+
+}
+.taille{
+  width: 300px;
+  margin:auto;
 }
 #titrecol1{
+  margin-top: 30px;
   font-size:30px;
 }
 #titrecol2{
+  margin-top: 30px;
   font-size:30px;
 }
 #graphic{
-  border-radius: 5%;
+  padding: 30px;
+  border-radius: 10%;
   width:100%;
-  height:100%;
 }
 #graphic2{
-    border-radius: 5%;
+  padding: 30px;
+  border-radius: 10%;
   width:100%;
-  height:100%;
 }
 #graphic3{
-    border-radius: 5%;
+  padding: 30px;
+  border-radius: 10%;
   width:100%;
-  height:100%;
 }
 #dollars{
+  left:20%;
   font-size: 50px;
-  color:grey;
-  top: 20px;
+  color:purple;
+  float:left;
+  margin-left: 40%;
 }
 #per{
+  text-align: left;
   font-size: 30px;
   color:solid grey;
+}
+#sous{
+    text-align: left;
+    margin-right: 40%;
 }
 #calendar{
   width:200px;
@@ -144,9 +110,9 @@
   height:200px;
 }
 #login{
+  padding: 20px;
   color: white;
   text-decoration: none;
-  padding: 20px;
 }
 #login1{
   color: white;
@@ -154,8 +120,8 @@
   padding: 20px;
 }
 #account{
-  margin-top: 100px;
-  left:10%;
+ padding-top: 100px;
+ padding-left: 20px;
   color: white;
 }
 #free{
@@ -164,33 +130,33 @@
 #bonsai{
   color: white;
   font-size: 30px;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 #brand{
   width:100px;
   height:100px;
 }
 #ready{
-    margin-top: 50px;
-    margin-bottom: 50px;
+  border-top: solid grey 1px;
   color: grey;
   font-size: 20px;
   text-align: center;
 }
 #create{
-  margin-top: 20px;
   background-color: green;
   color:white;
 }
 #footer{
-  height: 300px;
-  margin-top: 30px;
   background-color: #242629;
+  padding-left: 10%;
 }
 #product{
   color: grey;
-  left:20%;
   list-style: none;
+}
+#invoice{
+  border: solid grey 1px;
+  padding: 20px;
 }
 a{
   color: grey;
@@ -214,15 +180,15 @@ a{
   color: grey;
   list-style: none;
 }
+.br{
+  color: white;
+}
 #company{
-  color: grey;
-  left:10%;
+  color: white;
   list-style: none;
 }
 #end{
   color: grey;
-  right:20%;
-  left:20%;
   margin-top: 20px;
   display: inline-flex;
   text-align: center;

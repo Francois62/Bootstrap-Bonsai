@@ -11,62 +11,71 @@
 </head>
 
 <body>
-    <div class="col-xs-12 col-md-12 col-sm-12 container">
-        <nav class="navbar navbar-default">
-            <div id="start" class="navbar-header">
-                <img id="brand" class="image-responsive navbar-brand" alt="Brand" src="images/logo-icon-white.png">
-                <p id="bonsai">Bonsai</p>
-            </div>
+    <div class="container-fluid">
+        <div class="col-xs-12 col-md-12 col-sm-12">
+            <nav class="navbar navbar-default">
+                <div class="col-xs-1 col-md-2 col-sm-2">
+                    <div id="start" class="navbar-header">
+                        <img id="brand" class="img-responsive navbar-brand" alt="Brand" src="images/logo-icon-white.png">
+                        <p id="bonsai">Bonsai</p>
+                    </div>
+                </div>
+                <div id="account" class="text-center col-xs-5 col-md-7 col-sm-6">
+                    <h1>Simple & Beautiful Payments for Freelancers</h1>
+                    <p> Get paid on time, every time.</p>
+                    <button id="free" type="submit" class="btn btn-default">CREATE A FREE ACCOUNT</button>
+                </div>
+                <div id="sign" class="col-xs-1 col-md-3 col-sm-4">
+                    <a id="login" href="#">LOGIN <span class="sr-only">(current)</span></a>
 
-            <div id="account" class="text-center col-xs-12 col-md-6 col-sm-12">
-                <h1>Simple & Beautiful Payments for Freelancers</h1>
-                <p> Get paid on time, every time.</p>
-                <button id="free"type="submit" class="btn btn-default">Create a free account</button>
-            </div>
-            <div id="sign" class=" col-xs-12 col-md-5 col-sm-12">
-                <a id="login" href="#">Login <span class="sr-only">(current)</span></a>
-
-                <a id="login1" href="#">Sign Up</a>
-            </div>
-        </nav>
+                    <a id="login1" href="#">SIGN UP</a>
+                </div>
+            </nav>
+        </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div id="link1" class="col-xs-12 col-md-3 col-sm-12">
-                <img id="calendar" class="image-responsive navbar-brand" alt="Brand" src="images/payments-calendar-icon.svg">
-            </div>
-            <div id="link2" class="col-xs-12 col-md-3 col-sm-12">
-                <img id="mail" class="image-responsive navbar-brand" alt="Brand" src="images/payments-mail-icon.svg">
-            </div>
-            <div id="link3" class="col-xs-12 col-md-3 col-sm-12">
-                <img id="secure" class="image-responsive navbar-brand" alt="Brand" src="images/payments-methods-icon.svg">
+        <div class="col-xs-12 col-md-12 col-sm-3">
+            <div class="row">
+                <div id="link1" class="col-xs-12 col-md-4 col-sm-3 text-center">
+                    <img id="calendar" class="img-responsive center-block" alt="Brand" src="images/payments-calendar-icon.svg">
+                    <h2>Quick</h2><small>to create, send, and pay invoices</small>
+                </div>
+                <div id="link2" class="col-xs-12 col-md-4 col-sm-3 text-center">
+                    <img id="mail" class="img-responsive center-block" alt="Brand" src="images/payments-mail-icon.svg">
+                    <h3>Beautiful</h3><small>process for the freelancer and client</small>
+                </div>
+                <div id="link3" class="col-xs-12 col-md-4 col-sm-3 text-center">
+                    <img id="secure" class="img-responsive center-block" alt="Brand" src="images/payments-methods-icon.svg">
+                    <h4>Secure</h4><small>payments and quick disbursement</small>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div id="link4" class="col-xs-12 col-md-3 col-sm-12">
+    </div>
+    <!-- <div id="link4" class="col-xs-10 col-md-3 col-sm-3">
               <div class="row">
                 <h2>Quick</h2><small>to create, send, and pay invoices</small>
               </div>
             </div>
-            <div id="link5" class="col-xs-12 col-md-3 col-sm-12">
+            <div id="link5" class="col-xs-10 col-md-3 col-sm-3">
               <div class="row">
                 <h3>Beautiful</h3><small>process for the freelancer and client</small>
               </div>
             </div>
-            <div id="link6" class="col-xs-12 col-md-3 col-sm-12">
+            <div id="link6" class="col-xs-10 col-md-3 col-sm-3">
               <div class="row">
                 <h4>Secure</h4><small>payments and quick disbursement</small>
               </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <div class="container-fluid">
-        <div class="row">
-            <div id="invoice" class="text-center col-xs-12 col-md-12 col-sm-12">
-                <p id="simple">simple pricing:</p>
-                <p id="pay">pay when you get paid</p>
-                <span id="dollars" class="" aria-hidden="true">$1 </span><span id="per">PER PAID INVOICE</span>
-                <p>+2.9% & 30c transaction fee</p>
+        <div id="invoice" class="row">
+            <div class="text-center col-xs-12 col-md-12 col-sm-12">
+                <p id="simple">SIMPLE PRICING:</p>
+                <p id="pay">PAY WHEN YOU GET PAID</p>
+                <span id="dollars" aria-hidden="true">$1</span>
+                <h5 id="per">PER PAID INVOICE</h5>
+                <small id="sous">+2.9% & 30c transaction fee</small>
             </div>
         </div>
     </div>
@@ -76,80 +85,96 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row">
-            <div id="colonne1" class="col-xs-12 col-md-6 col-sm-12">
-                <img id="graphic" class="image-responsive navbar-brand" src="images/welcome-invoices-graphic-1.png">
+        <div class="colonne1 row">
+            <div id="col" class="col-xs-12 col-md-6 col-sm-6">
+                <img id="graphic" class="img-responsive center-block" src="images/welcome-invoices-graphic-1.png">
             </div>
-            <div id="colonne2" class="col-xs-12 col-md-6 col-sm-12">
-                <p id="titrecol">Integrates deeply with Bonsai Contracts</p>
-                <p>Increase your payment rate with Bonsai Contracts:free bulletproof work contracts that are easy to create & e-sign</p>
-                <p>
+            <div class="col-xs-12 col-md-6 col-sm-6">
+                <div class="taille">
+                    <p id="titrecol">Integrates deeply with Bonsai Contracts</p>
+                    <p>Increase your payment rate with Bonsai Contracts:free bulletproof work contracts that are easy to create & e-sign</p>
+                    <p>
+                </div>
             </div>
         </div>
+        <div class="colonne1 row">
+            <div class="col-xs-12 col-md-6 col-sm-6">
+                <div class="taille">
+                    <p id="titrecol1">Send & get paid with beautiful invoices</p>
+                    <p>Create invoices and request with the click of a button. Customize them to your brand, then send via email or URL.</p>
+                    <p></p>
+                    <p>Clients can pay quickly and securely via credit card. ACH is coming soon.</p>
+                </div>
+            </div>
+            <div id="col1" class="col-xs-12 col-md-6 col-sm-6">
+                <img id="graphic2" class="img-responsive center-block" src="images/welcome-invoices-graphic-2.png">
+            </div>
+        </div>
+        <div class="colonne1 row">
+            <div id="col2" class="col-xs-12 col-md-6 col-sm-6">
+                <img id="graphic3" class="img-responsive center-block" src="images/welcome-invoices-graphic-3.png">
+            </div>
+            <div class="col-xs-12 col-md-6 col-sm-6">
+                <div class="taille">
+                    <p id="titrecol2">Get paid on time with SmartPay</p>
+                    <p>Escrow-like deposits, smart reminders, soft collections, and much more background magic ensure you're paid on time.</p>
+                    <p>Focus on the work you love, not on chasing money. Currently in private beta.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
         <div class="row">
-          <div id="colonne3" class="col-xs-12 col-md-6 col-sm-12">
-            <p id="titrecol1">Send & get paid with beautiful invoices</p>
-            <p>Create invoices and request with the click of a button. Customize them to your brand, then send via email or URL.</p>
-            <p></p>
-            <p>Clients can pay quickly and securely via credit card. ACH is coming soon.</p>
-        </div>
-        <div id="colonne4" class="col-xs-12 col-md-6 col-sm-12">
-            <img id="graphic2" class="image-responsive navbar-brand" src="images/welcome-invoices-graphic-2.png">
+            <div id="ready" class="col-xs-12 col-md-12 col-sm-12">
+                <h2>Ready to freelance like a pro?</h2>
+                <p> Sign up here & get 5 <strong>FREE</strong> invoices.</p>
+                <button id="create" type="submit" class="btn btn-default">Create an account</button>
+            </div>
         </div>
     </div>
-    <div class="row">
-      <div id="colonne5" class="col-xs-12 col-md-6 col-sm-12">
-          <img id="graphic3" class="image-responsive navbar-brand" src="images/welcome-invoices-graphic-3.png">
-      </div>
-        <div id="colonne6" class="col-xs-12 col-md-6 col-sm-12">
-          <p id="titrecol2">Get paid on time with SmartPay</p>
-          <p>Escrow-like deposits, smart reminders, soft collections, and much more background magic ensure you're paid on time.</p>
-          <p>Focus on the work you love, not on chasing money. Currently in private beta.</p>
-        </div>
-    </div>
-  </div>
-  <div class="container-fluid">
-    <div class="row">
-      <div id="ready" class="col-xs-12 col-md-12 col-sm-12">
-        <h2>Ready to freelance like a pro?</h2>
-        <p> Sign up here & get 5 <strong>FREE</strong> invoices.</p>
-        <button id="create"type="submit" class="btn btn-default">Create an account</button>
-    </div>
-    </div>
-  </div>
-  <div class="container-fluid">
+    <div class="container-fluid">
         <div id="footer" class="col-xs-12 col-md-12 col-sm-12">
-    <div class="row">
-      <div id="product" class="col-xs-12 col-md-4 col-sm-12">
-        <li id="title1">Products</li><br>
-        <li><a href="../index.html" class="" aria-hidden="true">CONTRACTS</a></li><br>
-        <li><a href="../pages/mockup2.html" class="" aria-hidden="true">PAYMENTS</a></li></br>
-        <li><a href="../pages/mockup3.html" class="" aria-hidden="true">RATES</a></li></br>
+            <div class="row">
+                <div id="product" class="col-xs-4 col-md-4 col-sm-4">
+                    <li id="title1">Products</li><br>
+                    <li><a href="../index.html" class="br" aria-hidden="true">CONTRACTS</a></li><br>
+                    <li><a href="../pages/mockup2.html" class="br" aria-hidden="true">PAYMENTS</a></li>
+                    </br>
+                    <li><a href="../pages/mockup3.html" class="br" aria-hidden="true">RATES</a></li>
+                    </br>
+                </div>
+                <div id="company" class="col-xs-4 col-md-4 col-sm-4">
+                    <li id="title2">Company</li><br>
+                    <li><a href="../index.html" class="br" aria-hidden="true">ABOUT</a></li><br>
+                    <li><a href="../pages/mockup2.html" class="br" aria-hidden="true">BLOG</a></li>
+                    </br>
+                    <li><a href="../pages/mockup3.html" class="br" aria-hidden="true">FAQ</a></li>
+                    </br>
+                </div>
+                <div id="contact" class="col-xs-4 col-md-4 col-sm-4">
+                    <li id="title3">Contact</li><br>
+                    <li>760 Market St., 5th Floor</li>
+                    </br>
+                    <li>San Francisco, CA 94102</li>
+                    </br>
+                    <li><i class="br fa fa-envelope" aria-hidden="true"></i>
+                        <i class="br fa fa-twitter" aria-hidden="true"></i>
+                        <i class="br fa fa-heart" aria-hidden="true"></i>
+                        <a href="../pages/mockup3.html" class="" aria-hidden="true"></a>
+                        <a href="../pages/mockup3.html" class="" aria-hidden="true"></a>
+                    </li>
+                </div>
+                <div class="row">
+                    <div id="end" class="col-xs-12 col-md-12 col-sm-9">
+                        <p>@2016 Bonsai Inc. Bonsai is not a low firm, does not provide legal services or advice, and does not provide or participate in legal representation.
+                            <p>Legal - Credits</p>
+                        </p>
+                        <img id="badge" class="image-responsive navbar-brand" src="images/badge_blue.png">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div id="company" class="col-xs-12 col-md-4 col-sm-12">
-      <li id="title2">Company</li><br>
-      <li><a href="../index.html" class="" aria-hidden="true">ABOUT</a></li><br>
-      <li><a href="../pages/mockup2.html" class="" aria-hidden="true">BLOG</a></li></br>
-      <li><a href="../pages/mockup3.html" class="" aria-hidden="true">FAQ</a></li></br>
-  </div>
-  <div id="contact" class="col-xs-12 col-md-4 col-sm-12">
-    <li id="title3">Contact</li><br>
-    <li>760 Market St., 5th Floor</li></br>
-    <li>San Francisco, CA 94102</li></br>
-    <li><i class="fa fa-envelope" aria-hidden="true"></i>
-      <i class="fa fa-twitter" aria-hidden="true"></i>
-      <i class="fa fa-heart" aria-hidden="true"></i>
-<a href="../pages/mockup3.html" class="" aria-hidden="true"></a><a href="../pages/mockup3.html" class="" aria-hidden="true"></a></li>
-</div>
-<div class="row">
-<div id="end" class="col-xs-12 col-md-12 col-sm-12">
-  <p>@2016 Bonsai Inc. Bonsai is not a low firm, does not provide legal services or advice, and does not provide or participate in legal representation.<p>Legal - Credits</p></p>
-<img id="badge" class="image-responsive navbar-brand" src="images/badge_blue.png">
-</div>
-</div>
-</div>
-</div>
-</div>
 
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
